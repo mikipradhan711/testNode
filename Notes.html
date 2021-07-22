@@ -1,0 +1,50 @@
+install----1) npm  install init
+2) npm install express/ mongodb/mongoose/bcryptjs/nodemailer/
+
+stop bcryptjs for some time
+
+use camelCase in files or APi names (means small to Caps)
+
+create folder and their files-
+
+1) routes - to provide route of ur files & folder 
+     fileS: userRoutes.js
+
+2) connection - connect database in robo3t 
+fileS: userconnection.js (name of database)
+    
+2) controllers - to create api code in it 
+fileS: userControllers.js
+3) models - to create schema for design api
+fileS: userModels.js
+
+
+for now its enough 
+start to create folder
+
+use nodemon to save dynamic data & provide input without enter command, when we make changes in file
+
+nodemon - query use for save  & update
+
+
+create server using port on localserver then go to routes fileS
+//lookat this code(server.js) only it will show ur connection on localhost....lets check  ok now we will create the routes & other files....ok
+
+
+ routes-   require userControllers
+ controllers - require userModels
+
+
+ //App.use('/Puser',Puser);
+
+ //const Puser = require('./routes/userRoutes');   
+  
+ create sign Api in  userControllers For that //for signup we have to create schema in  usermodel the filled which, we have require for signuo api
+
+// timestamp is used for read the current time
+
+1) // now create api only for send req to server to create data not for mail send data on email
+//lets call the sign api in routes using post because post method is used for create database
+// call it in postman
+//  use schema(userModels) variable in postman 
+  

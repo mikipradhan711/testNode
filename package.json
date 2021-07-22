@@ -1,0 +1,19 @@
+{
+  "name": "testnode",
+  "version": "1.0.0",
+  "description": "TestNode Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Miki Pradhan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.11",
+    "nodemailer": "^6.6.2"
+  }
+}
